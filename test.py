@@ -1,6 +1,2 @@
-def cal(a, b):
-    c = 0.08869
-    return ((a * c + 100) / (b * c + 100)) * 100
-
-
-print(cal(1771, 1750))
+l = [1, 2, 3, 4123, 3123, 2313, 5, 5]
+print(sorted(l, reverse=True))
